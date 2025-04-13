@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <title>Katalog barang</title>
+
+    <!-- Bootstrap core CSS -->
+    <link
+      href="https://getbootstrap.com/docs/5.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- Favicons -->
+    <link
+      rel="icon"
+      href="https://getbootstrap.com/docs/5.1/assets/img/favicons/favicon.ico"
+    />
+
+    <!--  jquery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <link rel="stylesheet" href="./css/main.css">
+  </head>
+
+  <body>
+    <header class="sticky-top">
+      <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-white">Kantin Bintara</h4>
+              <p class="text-muted">
+                Kantin Bintara adalah aplikasi digital yang dirancang untuk
+                mempermudah pengelolaan dan pelayanan dalam lingkungan kantin
+                modern. Aplikasi ini memberikan solusi praktis untuk transaksi,
+                manajemen stok, dan interaksi antara pelanggan dengan penjual,
+                menciptakan pengalaman belanja yang lebih efisien dan nyaman.
+              </p>
+            </div>
+            <div class="col-sm-4 offset-md-1">
+              <label for="" class="form-label text-white"
+                >Cari riwayat pemesanan</label
+              >
+              <form id="searchForm" method="get" action="./order-history.html">
+                <div class="row g-2">
+                  <div class="col-8">
+                    <input
+                      name="id"
+                      type="text"
+                      class="form-control"
+                      placeholder="Masukan kode Identitas"
+                      required
+                    />
+                  </div>
+
+                  <div class="col-2">
+                    <button type="submit" class="btn btn-primary">Cari</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <!-- Keranjang untuk mobile -->
+          <div class="d-lg-none py-3">
+            <a
+              href="./keranjang.html"
+              class="text-white d-flex align-items-center"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                aria-hidden="true"
+                class="me-2"
+                viewBox="0 0 24 24"
+              >
+                <path d="M6 6h15l-1.5 9H6z" />
+                <path d="M6 6L4 4H1" />
+                <circle cx="9" cy="20" r="1" />
+                <circle cx="18" cy="20" r="1" />
+              </svg>
+              <strong>Keranjang</strong>
+              <span class="badge bg-primary rounded-pill countCart"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container">
+          <a href="./index.html" class="navbar-brand">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              aria-hidden="true"
+              class="me-2"
+              viewBox="0 0 24 24"
+            >
+              <path d="M6 6h15l-1.5 9H6z" />
+              <path d="M6 6L4 4H1" />
+              <circle cx="9" cy="20" r="1" />
+              <circle cx="18" cy="20" r="1" />
+            </svg>
+            <strong>Kantin Bintara</strong>
+          </a>
+          <div class="d-flex align-items-center">
+            <!-- Keranjang untuk desktop -->
+            <div class="d-none d-lg-block">
+              <a href="./keranjang.html" class="navbar-brand">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  aria-hidden="true"
+                  class="me-2"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M6 6h15l-1.5 9H6z" />
+                  <path d="M6 6L4 4H1" />
+                  <circle cx="9" cy="20" r="1" />
+                  <circle cx="18" cy="20" r="1" />
+                </svg>
+                <strong>Keranjang</strong>
+                <span
+                  class="badge bg-primary rounded-pill countCart"
+                ></span>
+              </a>
+            </div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarHeader"
+              aria-controls="navbarHeader"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      
+      <section class="py-2 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light">Katalog Produk</h1>
+            <p class="lead text-muted">
+              Kantin Bintara adalah aplikasi digital untuk mempermudah pelayanan
+              anda.
+            </p>
+            <p></p>
+          </div>
+        </div>
+      </section>
+
+      <div class="album bg-light">
+        <div class="container">
+          <h4>Katgeori Produk</h4>
+          <div class="row justify-content-center">
+            <div
+              class="d-flex flex-wrap justify-content-center align-items-center my-4"
+              id="listkategori"
+            ></div>
+          </div>
+          <h4>Daftar Produk</h4>
+          <div
+            class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3"
+            id="listBarang"
+          ></div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="text-muted py-5">
+      <div class="container">
+        <p class="float-end mb-1">
+          <a href="./keranjang.html">Back to top</a>
+        </p>
+        <p class="mb-1">Kantin untuk pengelolaan dan pelayanan kantin modern</p>
+        <p class="mb-0"></p>
+      </div>
+    </footer>
+
+    <script
+      src="https://getbootstrap.com/docs/5.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./js/main.js" type="module"></script>
+
+  </body>
+</html>

@@ -1,0 +1,156 @@
+[
+  {
+    "id": 1,
+    "name": "Nasi Goreng Special",
+    "price": "20000",
+    "status": 1,
+    "category": "Makanan"
+  },
+  {
+    "id": 2,
+    "name": "Mie Goreng",
+    "price": "15000",
+    "status": 1,
+    "category": "Makanan"
+  },
+  {
+    "id": 3,
+    "name": "Burger Keju",
+    "price": "25000",
+    "status": 1,
+    "category": "Makanan"
+  },
+  {
+    "id": 4,
+    "name": "Pizza Margherita",
+    "price": "50000",
+    "status": 1,
+    "category": "Makanan"
+  },
+  {
+    "id": 5,
+    "name": "Ayam Goreng Kremes",
+    "price": "30000",
+    "status": 1,
+    "category": "Makanan"
+  },
+  {
+    "id": 6,
+    "name": "Bakso Malang",
+    "price": "22000",
+    "status": 1,
+    "category": "Makanan"
+  },
+  {
+    "id": 7,
+    "name": "Sate Ayam",
+    "price": "35000",
+    "status": 1,
+    "category": "Makanan"
+  },
+  {
+    "id": 8,
+    "name": "Nasi Uduk",
+    "price": "18000",
+    "status": 1,
+    "category": "Makanan"
+  },
+  {
+    "id": 9,
+    "name": "Roti Bakar",
+    "price": "12000",
+    "status": 1,
+    "category": "Makanan"
+  },
+  {
+    "id": 10,
+    "name": "Kue Cubir",
+    "price": "8000",
+    "status": 1,
+    "category": "Makanan"
+  },
+  {
+    "id": 11,
+    "name": "Es Teh Manis",
+    "price": "5000",
+    "status": 1,
+    "category": "Minuman"
+  },
+  {
+    "id": 12,
+    "name": "Jus Jeruk",
+    "price": "15000",
+    "status": 1,
+    "category": "Minuman"
+  },
+  {
+    "id": 13,
+    "name": "Es Kelapa Muda",
+    "price": "20000",
+    "status": 1,
+    "category": "Minuman"
+  },
+  {
+    "id": 14,
+    "name": "Kopi Hitam",
+    "price": "12000",
+    "status": 1,
+    "category": "Minuman"
+  },
+  {
+    "id": 15,
+    "name": "Air Mineral 600ml",
+    "price": "4000",
+    "status": 1,
+    "category": "Minuman"
+  },
+  {
+    "id": 16,
+    "name": "Susu Coklat",
+    "price": "8000",
+    "status": 1,
+    "category": "Minuman"
+  },
+  {
+    "id": 17,
+    "name": "Teh Botol 330ml",
+    "price": "6000",
+    "status": 1,
+    "category": "Minuman"
+  },
+  {
+    "id": 18,
+    "name": "Cappuccino",
+    "price": "25000",
+    "status": 1,
+    "category": "Minuman"
+  },
+  {
+    "id": 19,
+    "name": "Smoothie Mangga",
+    "price": "20000",
+    "status": 1,
+    "category": "Minuman"
+  },
+  {
+    "id": 20,
+    "name": "Buku Tulis",
+    "price": "8000",
+    "status": 1,
+    "category": "ATK"
+  },
+  {
+    "id": 21,
+    "name": "Pulpen",
+    "price": "5000",
+    "status": 1,
+    "category": "ATK"
+  },
+  {
+    "id": 22,
+    "name": "Pensil 2B",
+    "price": "3000",
+    "status": 1,
+    "category": "ATK"
+  }
+]
